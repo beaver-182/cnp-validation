@@ -1,0 +1,21 @@
+{
+    "name": "root/cnp-validation",
+    "description": "Validate personal numeric code",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Root\\CnpValidation\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Vasiliu Liviu"
+        }
+    ],
+    "require": {
+        "php": ">=7.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9"
+    }
+}
